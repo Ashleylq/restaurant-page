@@ -1,5 +1,8 @@
 const renderAboutPage = function(){
     const container = document.querySelector('.content');
+    while (container.firstChild){
+        container.removeChild(container.firstChild);
+    }
     const heading = document.createElement('h1');
     heading.textContent = "Soup 'n smoke";
     heading.setAttribute("class", "heading");

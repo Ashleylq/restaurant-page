@@ -1,6 +1,8 @@
 const renderContact = function(){
     const container = document.querySelector('.content');
-    alert('contact')
+    while (container.firstChild){
+        container.removeChild(container.firstChild);
+    }
 }
 
 export {renderContact};
