@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'KirangHaerang';
+    src : url(https://raw.githubusercontent.com/Ashleylq/restaurant-page/e7710956129d37cb30f431ae4a64865534e64ac8/KirangHaerang-Regular.ttf)
+}
+
+* {
+    margin : 0;
+    font-family: 'KirangHaerang', sans-serif;
+    color: #f5e6cc;
+}
+
+body {
+    background-image: url(https://raw.githubusercontent.com/Ashleylq/restaurant-page/e7710956129d37cb30f431ae4a64865534e64ac8/bralro-C7cmSgQWiUY-unsplash.jpg);
+    background-size : cover;
+    text-align : center;
+}
+
+nav {
+    display : flex;
+    justify-content: space-around;
+    padding : 10px;
+    background-color: #530202;
+    opacity: 80%;
+}
+
+nav > button {
+    border : none;
+    background-color : #530202;
+    font-weight : bold;
+    font-size : 1.5rem;
+}
+
+.content {
+    background-color: #530202;
+    opacity: 80%;
+    margin : 50px auto;
+    padding : 10px;
+    width : 60%;
+}
+
+.content > * {
+    margin : 10px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display : grid;
+    grid-template-columns : 1fr 1fr;
+}
+
+.potatoes {
+    grid-column: 1/ span 2;
+}

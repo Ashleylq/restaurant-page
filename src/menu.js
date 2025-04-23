@@ -4,9 +4,10 @@ const renderMenu = function(){
         container.removeChild(container.firstChild);
     }
     const menu = document.createElement('div');
+    menu.setAttribute('class', 'menu')
     const potatoes = document.createElement('div');
     potatoes.setAttribute('class', 'potatoes');
-    potatoes.innerHTML = "<h2>Jacket Potatoes</h2> <ul><li>The Classic - <span>Cheddar cheese & chives</span></li> <li>Beach BBQ Spud - <span>Pulled pork, BBQ sauce, crispy onions</span></li> <li>Smoky Chili Spud - <span>Beef chili, sour cream, jalapenos</span></li> <li>Veggie Loaded - <span>Roasted veggies, feta, pesto drizzle</span></li> <li>Tuna Melt - <span>Tuna mayo, melted cheddar</span></li></ul>"
+    potatoes.innerHTML = "<h2>Jacket Potatoes</h2> <ul><li>The Classic - Cheddar cheese & chives</li> <li>Beach BBQ Spud - Pulled pork, BBQ sauce, crispy onions</li> <li>Smoky Chili Spud - Beef chili, sour cream, jalapenos</li> <li>Veggie Loaded - Roasted veggies, feta, pesto drizzle</li> <li>Tuna Melt - Tuna mayo, melted cheddar</li></ul>"
     const soups = document.createElement('div');
     soups.innerHTML = "<h2>Soups</h2> <ul><li>Creamy Tomato Basil</li> <li>Loaded Potato & Bacon</li> <li>Coastal Corn Chowder</li> <li>Spicy BBQ Bean</li></ul>";
     const BBQ = document.createElement('div');
